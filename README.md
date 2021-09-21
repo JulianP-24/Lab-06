@@ -14,3 +14,23 @@ Server: gunicorn
 Location: https://www.escuelaing.edu.co/sssss/abc.html
 Content-Type: text/html; charset=utf-8
 ~~~
+¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+
+4. Realice una nueva conexión con telnet, esta vez a:
+Host: www.httpbin.org
+Puerto: 80
+Versión HTTP: 1.1
+Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+
+**RESULTADO**
+~~~
+HTTP/1.1 200 ok 
+Date: Tue, 21 Sep 2021 20:24:04 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 3741
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+~~~
+De igual forma se obtiene como resultado un html, el cual tiene un body, un titulo y un parrafo.
