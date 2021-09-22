@@ -51,3 +51,11 @@ De igual forma se obtiene como resultado un html, el cual tiene un body, un titu
 ![](imagenes/imagen6.png)
 ![](imagenes/imagen7.png)
 
+# PARTE TRES
+20. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
+Usando GET
+![](imagenes/imagen8.png)
+Usando POST
+![](imagenes/imagen9.png)
+La diferencia entre POST y GET se encuentra en las urls, donde el GET lleva los datos de forma visible al cliente, lo cual cualquiera que vea la url puede saber esa informacion, mientras que el POST oculta los datos y los muestra a travez de un formulario y no en la url.
+
