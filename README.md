@@ -41,3 +41,13 @@ De igual forma se obtiene como resultado un html, el cual tiene un body, un titu
 
 6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
 ![](imagenes/imagen2.png)
+
+8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+![](imagenes/imagen3.png)
+![](imagenes/imagen4.png)
+
+15. Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
+![](imagenes/imagen5.png)
+![](imagenes/imagen6.png)
+![](imagenes/imagen7.png)
+
