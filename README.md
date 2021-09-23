@@ -53,9 +53,14 @@ De igual forma se obtiene como resultado un html, el cual tiene un body, un titu
 
 # PARTE TRES
 20. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
-Usando GET
+### Usando GET
 ![](imagenes/imagen8.png)
-Usando POST
+### Usando POST
 ![](imagenes/imagen9.png)
 La diferencia entre POST y GET se encuentra en las urls, donde el GET lleva los datos de forma visible al cliente, lo cual cualquiera que vea la url puede saber esa informacion, mientras que el POST oculta los datos y los muestra a travez de un formulario y no en la url.
 
+# PARTE CUATRO
+3. Revise cada una de las configuraciones agregadas anteriormente para saber qué hacen y por qué se necesitan. Elimine las que no se necesiten.
+* La etiqueta servlet no se puede borrar debido a que es necesaria para llamar a dicho servlet con la informacion necesaria
+* La etiqueta servlet-mapping no se puede borrar ya que se utiliza para que se pueda acceder a dicho servlet, publicandolo en el exterior.
+* La etiqueta welcome-file-list no se puede borrar ya que se utiliza como una pagina de bienvenida, la cual salta directamente a la pagina cuando el usuario ingresa el nombre del proyecto en la url o ingresa la url del contenedor web.

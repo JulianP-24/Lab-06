@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns="http://www.w3c.org/1999/xhtml">
+
+<h:head>
+
+    <title>Calculadora</title>
+
+</h:head>
+
+<h:body>
+
+    <h:form id="Calculadora_form">
+
+        <h:panelGrid columns="2">
+
+            <h:outputLabel value="Entrada:" />
+
+            <h:inputText id="lista" binding="#{input}" type="text" />
+
+            <h:outputLabel value="Moda:" />
+
+            <h:outputLabel value="#{calculadoraBean.moda}" />
+
+            <h:outputLabel value="Media:" />
+
+            <h:outputLabel value="#{calculadoraBean.media}" />
+
+            <h:outputLabel value="Desviacion Estandar:" />
+
+            <h:outputLabel value="#{calculadoraBean.res}" />
+
+            <h:outputLabel value="Varianza:" />
+
+            <h:outputLabel value="#{calculadoraBean.varianza}" />
+
+            <h:commandButton value="Calcular" actionListener="#{calculadoraBean.calculator(input.value)}"
+                update="Calculadora_form" />
+
+            <h:commandButton value="Reiniciar" actionListener="#{calculadoraBean.restart}" update="Calculadora_form" />
+
+        </h:panelGrid>
+
+    </h:form>
+
+</h:body>
+
+</html>
+
