@@ -3,7 +3,7 @@ package edu.eci.cvds.servlet.model;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import java.util.ArrayList;
-import java.math.*;
+import java.lang.Math;
 
 @ManagedBean(name = "calculadoraBean")
 @ApplicationScoped
@@ -15,23 +15,14 @@ public class Bean {
     private double moda;
     
     public void calculator(String lista) {
-
-        valores=new ArrayList<Double>(); 
-
-        for (String b : lista.split(";")) { 
-
-            valores.add(Double.valueOf(b)); 
-
-        } 
-
-        calculateMean(valores); 
-
-        calculateVariance(valores); 
-
-        calculateMode(valores); 
-
-        calculateStandardDeviation(valores); 
-
+        valores = new ArrayList<Double>();
+        for (String b : lista.split(";")) {
+            valores.add(Double.valueOf(b));
+        }
+        calculateMean(valores);
+        calculateVariance(valores);
+        calculateMode(valores);
+        calculateStandardDeviation(valores);
     }
 
     public void calculateMean(ArrayList<Double> valores) {
