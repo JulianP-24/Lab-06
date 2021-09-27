@@ -1,7 +1,13 @@
 version: 2.1
 
 orbs:
-  maven: circleci/maven@0.0.12
+  maven: circleci/maven@1.2.0
+
+deployment:
+  staging:
+    branch: master
+    heroku: 
+      appname: calculadora-lab5
 
 workflows:
   maven_test:
