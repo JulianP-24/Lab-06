@@ -38,6 +38,16 @@ Access-Control-Allow-Credentials: true
 ~~~
 De igual forma se obtiene como resultado un html, el cual tiene un body, un titulo y un parrafo.
 
+5.  ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
+![](imagenes/imagen10.png)
+Otros tipos de peticiones son:
+* Head
+* Put
+* Delete
+* Connect
+* Options
+* Trace
+* Patch
 # PARTE DOS
 5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
 ![](imagenes/imagen1.png)
