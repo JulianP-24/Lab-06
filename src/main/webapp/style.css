@@ -25,3 +25,8 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
+
+.label{
+    border: 2px solid black;
+    border-radius: 6px;
+}
