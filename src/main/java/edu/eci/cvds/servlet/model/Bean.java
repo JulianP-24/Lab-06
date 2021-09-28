@@ -70,7 +70,7 @@ public class Bean {
                 }
             }
             if (contador < x) {
-                moda = valores.get(i);
+                moda = x;
             }
         }
         this.moda = moda;
