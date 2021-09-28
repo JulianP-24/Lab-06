@@ -9,7 +9,7 @@ body{
     margin-left: 550px;
     margin-right: 550px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    
 }
 
 .Button{
@@ -23,4 +23,5 @@ body{
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
