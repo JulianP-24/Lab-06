@@ -8,7 +8,6 @@ body{
 .panel{
     margin-left: 550px;
     margin-right: 550px;
-    border: 2px solid black;
 }
 
 .Button{
@@ -17,4 +16,5 @@ body{
     border: 2px solid black;
     border-radius: 6px;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
