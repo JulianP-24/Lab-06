@@ -3,3 +3,7 @@ div{
   margin: auto;
   position: relative;
 }
+
+body{
+    background-color: aqua;
+}
