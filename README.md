@@ -40,7 +40,7 @@ De igual forma se obtiene como resultado un html, el cual tiene un body, un titu
 
 5.  ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
 ![](imagenes/imagen10.png)
-Otros tipos de peticiones son:
+#### Otros tipos de peticiones son:
 * Head
 * Put
 * Delete
