@@ -11,9 +11,9 @@
 </h:head>
 
 <h:body>
-    <div class="panel">
+    
     <h:form id="Calculadora_form">
-
+      <div class="panel">
         <h:panelGrid columns="2" >
 
             <h:outputLabel value="Entrada:" />
@@ -42,9 +42,8 @@
             <h:commandButton value="Reiniciar" actionListener="#{calculadoraBean.restart}" update="Calculadora_form" />
 
         </h:panelGrid>
-
+      </div>
     </h:form>
-    </div>
 </h:body>
 
 </html>
