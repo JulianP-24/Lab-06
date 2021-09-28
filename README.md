@@ -77,3 +77,6 @@ La diferencia entre POST y GET se encuentra en las urls, donde el GET lleva los 
 * La etiqueta servlet no se puede borrar debido a que es necesaria para llamar a dicho servlet con la informacion necesaria
 * La etiqueta servlet-mapping no se puede borrar ya que se utiliza para que se pueda acceder a dicho servlet, publicandolo en el exterior.
 * La etiqueta welcome-file-list no se puede borrar ya que se utiliza como una pagina de bienvenida, la cual salta directamente a la pagina cuando el usuario ingresa el nombre del proyecto en la url o ingresa la url del contenedor web.
+
+# Link pagina Heroku
+https://calculadora-lab5.herokuapp.com/faces/calculadora.xhtml
