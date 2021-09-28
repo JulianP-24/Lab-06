@@ -8,5 +8,5 @@ body{
 .panel{
     text-align: center;
     background-color: blueviolet;
-    margin: auto;
+    margin-left: 100px;
 }
