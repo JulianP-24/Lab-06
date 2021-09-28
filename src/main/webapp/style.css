@@ -13,5 +13,5 @@ body{
 .Button{
     color:black;
     background-color: blueviolet;
-    border: solid;
+    border: 2px solid blueviolet;
 }

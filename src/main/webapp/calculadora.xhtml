@@ -35,12 +35,11 @@
             <h:outputLabel value="Varianza:" />
 
             <h:outputLabel value="#{calculadoraBean.varianza}" />
-            <div >
-              <h:commandButton class="Button" value="Calcular" actionListener="#{calculadoraBean.calculator(input.value)}"
+        
+            <h:commandButton class="Button" value="Calcular" actionListener="#{calculadoraBean.calculator(input.value)}"
                   update="Calculadora_form" />
 
-              <h:commandButton value="Reiniciar" actionListener="#{calculadoraBean.restart}" update="Calculadora_form" />
-            </div>
+            <h:commandButton class="Button" value="Reiniciar" actionListener="#{calculadoraBean.restart}" update="Calculadora_form" />
         </h:panelGrid>
       </div>
     </h:form>
