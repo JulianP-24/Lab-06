@@ -6,8 +6,8 @@ body{
 }
 
 .panel{
-    align: center;
+    
     background-color: blueviolet;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-right: 300px;
 }
