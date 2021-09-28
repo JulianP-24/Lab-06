@@ -6,8 +6,12 @@ body{
 }
 
 .panel{
-    
-    background-color: blueviolet;
     margin-left: 500px;
     margin-right: 500px;
+}
+
+.Button{
+    color:black;
+    background-color: blueviolet;
+    border: 2px solid #0016b0;
 }
