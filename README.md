@@ -1,4 +1,7 @@
 # PARTE UNO
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0fa63be329594b86b900f59138f572f0)](https://app.codacy.com/gh/JulianP-24/Lab-06?utm_source=github.com&utm_medium=referral&utm_content=JulianP-24/Lab-06&utm_campaign=Badge_Grade_Settings)
+
 3. Antes de que el servidor cierre la conexión por falta de comunicación:
 Revise la página 36 del RFC del protocolo HTTP, sobre cómo realizar una petición GET. Con esto, solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de HTTP.
 Asegúrese de presionar ENTER dos veces después de ingresar el comando.
