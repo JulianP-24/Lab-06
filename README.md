@@ -1,3 +1,6 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e469b4a0f5a340d1a7f26a86e25ed172)](https://www.codacy.com/gh/JulianP-24/Lab-06/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JulianP-24/Lab-06&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/JulianP-24/Lab-06.svg?style=svg)](https://circleci.com/gh/JulianP-24/Lab-06)
+
 # PARTE UNO
 3. Antes de que el servidor cierre la conexión por falta de comunicación:
 Revise la página 36 del RFC del protocolo HTTP, sobre cómo realizar una petición GET. Con esto, solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de HTTP.
