@@ -14,4 +14,5 @@ body{
     color:black;
     background-color: blueviolet;
     border: 2px solid blueviolet;
+    border-radius: 6px;
 }
