@@ -73,7 +73,7 @@ public class Bean {
                 moda = valores.get(i);
             }
         }
-        //this.moda = moda;
+        this.moda = moda;
     }
 
     public void restart(){  
