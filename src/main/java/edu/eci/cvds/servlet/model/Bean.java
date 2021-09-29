@@ -69,8 +69,9 @@ public class Bean {
                     x += 1;
                 }
             }
-            if (contador > x) {
+            if (contador < x) {
                 moda = valores.get(i);
+                contador = x;
             }
         }
         this.moda = moda;
