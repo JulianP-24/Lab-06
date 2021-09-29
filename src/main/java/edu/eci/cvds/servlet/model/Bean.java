@@ -66,7 +66,7 @@ public class Bean {
             int x = 0;
             for (int j = 0; j < valores.size(); j++) {
                 if (valores.get(i) == valores.get(j)) {
-                    x += 1;
+                    x++;
                 }
                 if (x > contador) {
                     moda = valores.get(i);
