@@ -68,10 +68,11 @@ public class Bean {
                 if (valores.get(i) == valores.get(j)) {
                     x += 1;
                 }
+                if (x > contador) {
+                    moda = valores.get(i);
+                }
             }
-            if (x > contador) {
-                moda = valores.get(i);
-            }
+            
         }
         this.moda = moda;
     }
