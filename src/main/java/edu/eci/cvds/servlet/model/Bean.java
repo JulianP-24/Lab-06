@@ -66,13 +66,12 @@ public class Bean {
             int x = 0;
             for (int j = 0; j < valores.size(); j++) {
                 if (valores.get(i) == valores.get(j)) {
-                    x++;
-                }
-                if (x > contador) {
-                    moda = valores.get(i);
+                    x += 1;
                 }
             }
-            
+            if (contador < x) {
+                moda = valores.get(i);
+            }
         }
         this.moda = moda;
     }
