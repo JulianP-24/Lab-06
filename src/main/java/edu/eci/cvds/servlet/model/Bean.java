@@ -69,7 +69,7 @@ public class Bean {
                     x += 1;
                 }
             }
-            if (contador < x) {
+            if (x > contador) {
                 moda = valores.get(i);
             }
         }
