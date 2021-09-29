@@ -96,7 +96,7 @@ public class Bean {
         return media;
     }
     
-    public void setMedia(double moda) {
+    public void setMedia(double media) {
         this.media = media;
     }
 
